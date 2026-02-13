@@ -51,8 +51,6 @@ Este proyecto construye un pipeline de extremo a extremo que:
 
 Pablo y Jose fueron la **dupla técnica central** del proyecto. Pablo se encargó de que el pipeline corriera de punta a punta; Jose se encargó de que cada resultado estadístico fuera defendible. Este esquema — donde uno hace las veces de Ingeniero de Plataforma y el otro de Analista Cuantitativo — blindó la integridad de los datos en todo el flujo, desde la extracción hasta el modelo final.
 
-Cuando parte del equipo se fue desconectando durante el proyecto, Pablo y Jose absorbieron las tareas críticas para no frenar los entregables. No se trató de quejarse por la carga desigual, sino de resolver un problema de liderazgo: identificar riesgos temprano y redistribuir el trabajo antes de que los plazos se vieran comprometidos.
-
 ### El Squad Completo
 
 | Miembro | Formación | Contribución |
