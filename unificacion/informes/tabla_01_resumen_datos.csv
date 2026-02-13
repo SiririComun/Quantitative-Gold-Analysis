@@ -1,0 +1,7 @@
+Dataset,Registros,Período,Fuente
+Precios del Oro (XAU/USD),"3,614",2016-01-03 - 2025-11-24,Trading Economics
+Noticias Wall Street Journal,"~50,000",2016-2025,Wall Street Journal
+Noticias Filtradas (keywords oro),"18,776",2016-01-03 - 2025-10-31,WSJ (filtrado)
+Outliers Detectados,132,2025-03-13 - 2025-11-24,IQR + Z-Score + Isolation Forest
+Sentimientos Clasificados,"18,776",2016-01-03 - 2025-10-31,FinBERT (ProsusAI)
+Dataset Integrado (Precios + Sentimientos),"2,273",2016-01-03 - 2025-10-31,Merge temporal

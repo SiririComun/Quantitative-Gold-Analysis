@@ -1,0 +1,10 @@
+Variable Sentimiento,Variable Precio,Pearson r,Pearson p-value,Spearman ρ,Spearman p-value,Significativo
+sentiment,Close,-0.0612,0.0035,-0.0564,0.0072,✅
+sentiment,Returns,0.0057,0.7857,0.0064,0.7604,❌
+sentiment,Volatility_30,-0.0251,0.2343,-0.0280,0.1839,❌
+sentiment_ma7,Close,-0.1559,0.0000,-0.1595,0.0000,✅
+sentiment_ma7,Returns,0.0036,0.8655,0.0096,0.6493,❌
+sentiment_ma7,Volatility_30,-0.0665,0.0016,-0.0476,0.0239,✅
+sentiment_ma30,Close,-0.2688,0.0000,-0.3015,0.0000,✅
+sentiment_ma30,Returns,-0.0152,0.4706,-0.0134,0.5246,❌
+sentiment_ma30,Volatility_30,-0.0755,0.0003,-0.0646,0.0022,✅

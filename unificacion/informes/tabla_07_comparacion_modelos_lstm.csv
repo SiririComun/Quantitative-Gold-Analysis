@@ -1,0 +1,3 @@
+Modelo,Features,RMSE,MAE,R²,MAPE
+LSTM Base (sin sentimiento),6 vars,$524.01,$453.63,-0.7065,14.14%
+LSTM + Sentimiento,9 vars,$555.55,$486.24,-0.9181,15.20%

@@ -1,0 +1,42 @@
+# --- PRIVACIDAD ---
+.env
+copilot-instructions.md
+# Ocultar carpeta de estudio personal para el portafolio
+DOCS/
+
+# --- PYTHON & JUPYTER ---
+__pycache__/
+*.py[cod]
+.venv/
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# --- SISTEMA ---
+.DS_Store
+Thumbs.db
+
+# --- ESTRATEGIA DE DATOS (RESTRICCIÓN POR TAMAÑO) ---
+# 1. Ignoramos todas las carpetas de datos por defecto
+data/
+datos_horas/
+unificacion/datos_procesados/
+
+# 2. Permitimos que GitHub vea las carpetas (pero no su contenido pesado)
+!data/
+!datos_horas/
+!unificacion/datos_procesados/
+
+# 3. NO subir archivos de datos que superen los 5MB (Filtro de seguridad)
+*.csv
+*.json
+*.keras
+
+# 4. EXCEPCIONES: SÍ subir muestras y resultados visuales
+# Forzamos la subida de figuras e informes (que suelen ser ligeros)
+!unificacion/figuras/
+!unificacion/informes/*.csv
+!unificacion/modelos/*.keras
+
+# Si quieres subir una MUESTRA de un dato crudo para que el código no falle:
+# Descomenta la siguiente línea y cambia 'muestra.csv' por el nombre real
+# !data/raw/muestra.csv
