@@ -44,10 +44,10 @@ This project builds an end-to-end pipeline that:
 
 ### Core Technical Governance
 
-| Role | Member | Responsibility |
+| Role | Member | Responsibility | Certification |
 |------|--------|---------------|
-| **Technical Lead & Integrator** | Pablo Sanchez *(Physics – UdeA)* | Unificación pipeline, 8-notebook architecture, Anomaly Detection, post-project audit |
-| **Co-Lead & Statistical Analyst** | Jose Ortiz *(Physics – UdeA)* | Web scraping infrastructure, Granger Causality analysis, data validation |
+| **Technical Lead & Integrator** | Pablo Sanchez *(Physics – UdeA)* | Unificación pipeline, 8-notebook architecture, Anomaly Detection, post-project audit | [Verify Talento Tech 🏆](https://www.auco.ai/verify/?code=HXKAW5DL5W) |
+| **Co-Lead & Statistical Analyst** | Jose Ortiz *(Physics – UdeA)* | Web scraping infrastructure, Granger Causality analysis, data validation |[Verify Talento Tech 🏆]() |
 
 Pablo and Jose formed the project's **governance pair**. Pablo guaranteed the pipeline ran end-to-end; Jose guaranteed the statistical claims held up under scrutiny. This dual-stewardship model — analogous to a Platform Engineer and a Quant Analyst — ensured that data integrity was protected across the full "front-to-back" engineering flow.
 
