@@ -44,10 +44,10 @@ Este proyecto construye un pipeline de extremo a extremo que:
 
 ### Dupla de Liderazgo y Gobierno Técnico
 
-| Rol | Miembro | Responsabilidad |
-|-----|---------|----------------|
-| **Líder Técnico & Integrador** | Pablo Sanchez *(Física – UdeA)* | Pipeline de Unificación, arquitectura de 8 notebooks, Detección de Anomalías, retrospectiva post-proyecto |
-| **Co-Líder & Analista Estadístico** | Jose Ortiz *(Física – UdeA)* | Infraestructura de web scraping, análisis de Causalidad de Granger, validación de datos |
+| Rol | Miembro | Responsabilidad | Certificación |
+| :--- | :--- | :--- | :--- |
+| **Líder Técnico e Integrador** | Pablo Sanchez *(Físico – UdeA)* | Unificación del pipeline, arquitectura de 8 notebooks, Detección de anomalías, auditoría post-proyecto | [Verificar Talento Tech 🏆](https://www.auco.ai/verify/?code=HXKAW5DL5W) |
+| **Co-Líder y Analista Estadístico** | Jose Ortiz *(Físico – UdeA)* | Infraestructura de Web scraping, análisis de Causalidad de Granger, validación de datos | [Verificar Talento Tech 🏆](PONER_URL_DE_JOSE) |
 
 Pablo y Jose fueron la **dupla técnica central** del proyecto. Pablo se encargó de que el pipeline corriera de punta a punta; Jose se encargó de que cada resultado estadístico fuera defendible. Este esquema — donde uno hace las veces de Ingeniero de Plataforma y el otro de Analista Cuantitativo — blindó la integridad de los datos en todo el flujo, desde la extracción hasta el modelo final.
 
@@ -132,13 +132,15 @@ Este proyecto **no** es un notebook gigante donde todo está revuelto. Es una **
 
 ```bash
 # 1. Clonar el repositorio
-git clone https://github.com/your-username/gold-prediction-pipeline.git
-cd gold-prediction-pipeline
+git clone https://github.com/SiririComun/Quantitative-Gold-Analysis.git
+cd Quantitative-Gold-Analysis
 
-# 2. Crear y activar entorno virtual
-python -m venv .venv
-source .venv/bin/activate  # Linux/macOS
-# .venv\Scripts\activate   # Windows
+# 2. Crear y activar un entorno virtual (Recomendado)
+python -m venv venv
+# En Linux/macOS:
+source venv/bin/activate  
+# En Windows:
+venv\Scripts\activate
 
 # 3. Instalar dependencias
 pip install -r requirements.txt
