@@ -45,10 +45,9 @@ This project builds an end-to-end pipeline that:
 ### Core Technical Governance
 
 | Role | Member | Responsibility | Certification |
-|------|--------|---------------|
+| :--- | :--- | :--- | :--- |
 | **Technical Lead & Integrator** | Pablo Sanchez *(Physics – UdeA)* | Unificación pipeline, 8-notebook architecture, Anomaly Detection, post-project audit | [Verify Talento Tech 🏆](https://www.auco.ai/verify/?code=HXKAW5DL5W) |
-
-| **Co-Lead & Statistical Analyst** | Jose Ortiz *(Physics – UdeA)* | Web scraping infrastructure, Granger Causality analysis, data validation | [Verify Talento Tech 🏆]() |
+| **Co-Lead & Statistical Analyst** | Jose Ortiz *(Physics – UdeA)* | Web scraping infrastructure, Granger Causality analysis, data validation | [Verify Talento Tech 🏆](URL_HERE) |
 
 Pablo and Jose formed the project's **governance pair**. Pablo guaranteed the pipeline ran end-to-end; Jose guaranteed the statistical claims held up under scrutiny. This dual-stewardship model — analogous to a Platform Engineer and a Quant Analyst — ensured that data integrity was protected across the full "front-to-back" engineering flow.
 
@@ -123,21 +122,14 @@ Each notebook represents a domain boundary owned by a specific team member, with
 
 ## 4. Quick Start
 
-### Prerequisites
-- Python 3.8+
-- ~4 GB of disk space (FinBERT model cache)
-
-### Installation
-
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-username/gold-prediction-pipeline.git
-cd gold-prediction-pipeline
+git clone https://github.com/SiririComun/Quantitative-Gold-Analysis.git
+cd Quantitative-Gold-Analysis
 
-# 2. Create and activate a virtual environment
-python -m venv .venv
-source .venv/bin/activate  # Linux/macOS
-# .venv\Scripts\activate   # Windows
+# 2. Create and activate a virtual environment (Recommended)
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 # 3. Install dependencies
 pip install -r requirements.txt
